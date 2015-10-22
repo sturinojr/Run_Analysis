@@ -1,3 +1,11 @@
+##This R file contains 4 functions
+##project1 - the Main function that calls the other functions
+##           requires a working directory variable to be passed to it.
+##mergeData - Merges the test and train data sets and adds column headers.
+##extractData - Extracts columns with std or mean in their header
+##addVerboseNaming - Converts the column headers names into more
+##                   descriptive items.
+
 project1 <- function(workingDirectory){
   #Requires the following packages to work
   #data.table
